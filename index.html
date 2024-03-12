@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ocean Flow Logistics</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <video autoplay muted loop id="myVideo">
+        <source src="oceanflowlogistics.webm" type="video/webm">
+        Your browser does not support the video tag.
+    </video>
+
+    <script>
+        var video = document.getElementById("myVideo");
+        function resizeVideo() {
+            video.style.minHeight = window.innerHeight + "px";
+        }
+        resizeVideo();
+        window.addEventListener('resize', resizeVideo);
+    </script>
+</body>
+</html>

@@ -1,0 +1,11 @@
+body {
+    margin: 0; 
+    padding: 0;
+    overflow: hidden; /* Hide scrollbars */
+}
+
+#myVideo {
+    width: 100%;    /* Make the video stretch horizontally */
+    height: auto;   /* Automatically adjust height to maintain aspect ratio */
+    object-fit: cover;  /* Cover the video container while maintaining aspect ratio */
+}
